@@ -62,37 +62,3 @@ clock-app/
         └── format.js           # fmt(seconds) → "hh:mm:ss"
 ```
 
----
-
-## Getting Started
-
-```bash
-# 1. Scaffold and enter the project
-npm create vite@latest clock-app -- --template react
-cd clock-app
-
-# 2. Replace the generated src/ and index.html with the project files
-#    (delete src/App.css and src/assets — they are not used)
-
-# 3. Install dependencies and start the dev server
-npm install
-npm run dev
-```
-
-### Build for production
-
-```bash
-npm run build      # outputs to dist/
-npm run preview    # preview the production build locally
-```
-
-### Deploy
-
-The `dist/` folder is a self-contained static site — drop it anywhere:
-
-| Platform | Method |
-|---|---|
-| **Vercel** | `npx vercel` in the project root |
-| **Netlify** | Drag and drop `dist/` into netlify.com/drop |
-| **GitHub Pages** | Use the `gh-pages` npm package or a GitHub Actions workflow |
-| **Cloudflare Pages** | Connect the repo; set build command `npm run build`, output dir `dist` |
