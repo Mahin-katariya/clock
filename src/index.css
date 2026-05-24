@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&display=swap');
+
+
+/* ── Reset ─────────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* ── Scrollbar hide ────────────────────────────────────────────────────────── */
+.ns::-webkit-scrollbar {
+  display: none;
+}
+
+/* ── Button interactions ───────────────────────────────────────────────────── */
+.btn-hover:hover {
+  filter: brightness(1.1);
+}
+
+.btn-hover:active {
+  transform: scale(0.97);
+}
